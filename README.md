@@ -23,7 +23,7 @@ Nous savons que vous n'avez jamais fait de React, cet exercice a pour but d'éva
 
 ## Ressources utiles
 
-https://fr.reactjs.org/docs/components-and-props.html
-https://fr.reactjs.org/docs/hooks-state.html
-https://fr.reactjs.org/docs/forms.html
-https://www.freecodecamp.org/news/manipulating-arrays-in-javascript/
+- https://fr.reactjs.org/docs/components-and-props.html
+- https://fr.reactjs.org/docs/hooks-state.html
+- https://fr.reactjs.org/docs/forms.html
+- https://www.freecodecamp.org/news/manipulating-arrays-in-javascript/
