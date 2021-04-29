@@ -59,16 +59,21 @@ function App() {
 
     // code here
     // don't forget to clear the input values after adding an item to the list
-    const newShoppingList=[...shoppingList];
-    newShoppingList.push({title:currentItem,quantity:currentNumber});
-    
-    setShoppingList(newShoppingList);
-    
-    console.log("A new item is added");
-
-    //After adding:
-    setCurrentNumber(0);
-    setCurrentItem("");
+    if(currentItem==="" || currentNumber<1){
+      console.log("Mettre un nom de produit et le quantite à 1 au minimum");
+    }
+    else{
+      const newShoppingList=[...shoppingList];
+      newShoppingList.push({title:currentItem,quantity:currentNumber});
+      
+      setShoppingList(newShoppingList);
+      
+      console.log("A new item is added");
+  
+      //After adding:
+      setCurrentNumber(0);
+      setCurrentItem("");
+    }
   };
 
   const removeItem = (title) => {
