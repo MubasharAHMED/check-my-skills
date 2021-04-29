@@ -68,6 +68,7 @@ function App() {
   const onTextChanged = (e) => {
     // code here
     // oups, nothing happens when you type in the input, change this part to fix that
+    setCurrentItem(e.target.value);
   };
 
   const onNumberChanged = (e) => {
