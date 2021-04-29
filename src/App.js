@@ -71,7 +71,7 @@ function App() {
     setCurrentItem("");
   };
 
-  const removeItem = (index) => {
+  const removeItem = (title) => {
     // code here
     const newShoppingList = [...shoppingList];
     const index = newShoppingList.findIndex(shoppingList => shoppingList.title ===title);
