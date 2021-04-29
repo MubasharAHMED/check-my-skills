@@ -73,6 +73,12 @@ function App() {
 
   const removeItem = (index) => {
     // code here
+    const newShoppingList = [...shoppingList];
+    const index = newShoppingList.findIndex(shoppingList => shoppingList.title ===title);
+
+    newShoppingList.splice(index,1);
+    
+    setShoppingList(newShoppingList);
   };
 
   const onTextChanged = (e) => {
